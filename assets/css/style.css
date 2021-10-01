@@ -199,6 +199,11 @@ header h2 {
   justify-content: center;
 }
 
+.birthday-display__section.initial-size .birthday-display__section__list {
+  height: 100%;
+  flex-basis: 100%;
+}
+
 .birthday-display__section.size .birthday-display__section__list {
   height: 50%;
   flex-basis: 50% !important;
