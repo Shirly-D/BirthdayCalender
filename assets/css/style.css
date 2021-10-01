@@ -103,9 +103,19 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+.container { background-color: #EAF0F2; }
 /*=================================
   Header styling starts here
 =================================*/
+
+header h2 {
+  padding: 40px 0;
+  color: #6B7985;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
 
 
 
