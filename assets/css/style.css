@@ -117,11 +117,6 @@ header h2 {
   text-transform: capitalize;
 }
 
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -129,6 +124,60 @@ header h2 {
 /*=================================
   main styling starts here
 =================================*/
+
+.birthday {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday__block {
+  width: 14%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-left: 1%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.birthday__block:first-child { margin-left: 0; }
+
+.birthday__block__text {
+  padding: 12px;
+  border-bottom: 1px solid;
+  border-radius: 5px 5px 0 0;
+  background-color: #8C0DD1;
+  color: #FFFFFF; 
+}
+
+.birthday-display {
+  height: 200px;
+  border-radius: 0 0 7px 7px;
+  background-color: #FFFFFF;
+}
+
+form { margin: 80px 0; }
+form textarea { width: 45%; }
+
+form .main-div {
+  margin: 55px 0 20px 10%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+form .input-section { width: 28%; }
+
+.input-section label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.input-section input {
+  width: 90%;
+  padding: 10px;
+  font-size: 18px;
+}
 
 
 
