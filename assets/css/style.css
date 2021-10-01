@@ -150,21 +150,70 @@ header h2 {
 }
 
 .birthday-display {
+  width: 100%;
   height: 200px;
   border-radius: 0 0 7px 7px;
   background-color: #FFFFFF;
 }
 
-form { margin: 80px 0; }
+.birthday__block__count {
+  margin: 20px 0 ;
+  font-size: 16px;
+  font-family: serif;
+}
+
+.birthday-display__section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.birthday-display__section.birthday-empty .birthday-display__section__list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.birthday-display__section.birthday-empty .birthday-display__section__list::before {
+  content: "\f11a";
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #2E4DA6;
+  font-family: "FontAwesome";
+  font-size: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.birthday-display__section__list {
+  display: flex;
+  background-color: #6B7985;
+  align-items: center;
+  justify-content: center;
+}
+
+.birthday-display__section.size .birthday-display__section__list {
+  height: 50%;
+  flex-basis: 50% !important;
+}
+
+form { padding: 80px 0; }
 form textarea { width: 45%; }
 
-form .main-div {
+form .form-input {
   margin: 55px 0 20px 10%;
   display: inline-block;
   vertical-align: top;
 }
 
-form .input-section { width: 28%; }
+.input-section { margin-bottom: 30px; }
 
 .input-section label {
   margin-bottom: 10px;
@@ -174,10 +223,21 @@ form .input-section { width: 28%; }
 }
 
 .input-section input {
-  width: 90%;
   padding: 10px;
   font-size: 18px;
 }
+
+form .update {
+  padding: 8px 25px;
+  border: 1px solid #3366CC;
+  border-radius: 5px;
+  background-color: #3366CC;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+form .update:hover { background-color: #2E4DA6; }
 
 
 
