@@ -1,0 +1,26 @@
+{
+  "name": "birthdaycalender",
+  "version": "1.0.0",
+  "description": "birthday calender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shirly-D/BirthdayCalender.git"
+  },
+  "keywords": [
+    "birthday",
+    "calender"
+  ],
+  "author": "shirly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shirly-D/BirthdayCalender/issues"
+  },
+  "homepage": "https://github.com/Shirly-D/BirthdayCalender#readme",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
+}
