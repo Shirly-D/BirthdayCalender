@@ -185,7 +185,7 @@ header h2 {
   position: absolute;
   top: 0;
   left: 0;
-  color: #2E4DA6;
+  color: #8C0DD1;
   font-family: "FontAwesome";
   font-size: 100px;
   align-items: center;
@@ -207,6 +207,11 @@ header h2 {
 .birthday-display__section.size .birthday-display__section__list {
   height: 50%;
   flex-basis: 50% !important;
+}
+
+.birthday-display__section__names {
+  color: #6B7985;
+  font-weight: bold;
 }
 
 form { padding: 80px 0; }
